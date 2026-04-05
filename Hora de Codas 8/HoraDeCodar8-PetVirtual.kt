@@ -90,13 +90,13 @@ fun main() {
 
     while (true) {
         println("\nO que deseja fazer?")
-        println("1. Alimentar $nomePet")
-        println("2. Brincar com $nomePet")
-        println("3. $nomePet descansar")
-        println("4. Levar $nomePet ao banheiro")
-        println("5. Dar banho em $nomePet")
-        println("6. Verificar status de $nomePet")
-        println("7. Sair")
+        println("(1) Alimentar $nomePet")
+        println("(2) Brincar com $nomePet")
+        println("(3) $nomePet descansar")
+        println("(4) Levar $nomePet ao banheiro")
+        println("(5) Dar banho em $nomePet")
+        println("(6) Verificar status de $nomePet")
+        println("(7) Sair")
 
         val escolha = readln().toIntOrNull() ?: continue
 
